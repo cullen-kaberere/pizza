@@ -1,7 +1,7 @@
 # # CULLEN'S PIZZARINA
 
 
-Author: Cullen Kaberere..
+Author: Cullen Kaberere...
 
 Project Description:
 This is a webpage where can choose his/her pizza then make an order.
