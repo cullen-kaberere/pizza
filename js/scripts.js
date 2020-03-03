@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-function () {
+$(function () {
   $('.summary').hide();
   $('.cdata-overlay').hide();
 //Get inputs
@@ -380,7 +380,7 @@ function () {
 
       //order function
       let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-      console.log(newOrder); // test func
+      console.log(newOrder); 
 
       $('.summary').slideDown(2000);
       $('.cdata-overlay').slideUp();
@@ -389,7 +389,8 @@ function () {
       $('.delivernot').show(1000);
 
       $('#list').text(" ");
-      $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
+      $("#list").append("<br>" + "Flavour :   " 
+          + newOrder.f + "<br>" + "Size :   "
           + newOrder.s + "<br>" + "Crust :     "
           + newOrder.c + "<br>" + "Toppings :     "
           + newOrder.t + "<br>" + " Number of pizzas :    "
@@ -417,5 +418,5 @@ function () {
   $(function () {
       $.scrollify.move('#sum-order');
   });
-}
+});
 });
