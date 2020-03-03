@@ -39,3 +39,10 @@ body {
 .footer{
     width: auto;
 }
+
+.deliver{
+    display: none;
+}
+.delivernot{
+    display: none;
+}
